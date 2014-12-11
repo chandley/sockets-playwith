@@ -13,6 +13,16 @@ describe('homepage', function(){
     });
   });
 
+  it('changes title when button pressed', function() {
+    casper.then(function(){
+      casper.mouseEvent('click', '#like');
+      casper.then(function(){
+       expect("#title").to.have.text("I like you too");
+      });
+    });
+  });
+
+
   
 
 });
