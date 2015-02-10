@@ -26,6 +26,8 @@ Week 7 exercise to do simple things with javascript websockets
 ```
 npm start
 ```
+go to http://localhost:3000/sockets
+click 'I like you'
 ### Tests
 ```
 grunt
